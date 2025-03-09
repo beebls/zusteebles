@@ -1,0 +1,26 @@
+{
+  "name": "zusteebles",
+  "version": "0.0.1",
+  "description": "Zustand utils for improved DX",
+  "homepage": "https://github.com/beebls/zusteebles#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beebls/zusteebles.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Beebles",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "zustand": "^5.0.0"
+  }
+}
